@@ -1,0 +1,45 @@
+/* Reset de estilos para una mayor consistencia entre navegadores */
+body, h1, h2, h3, p, figure, blockquote, dl, dd, ul, ol, li, pre, fieldset, form, legend, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+#content-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#content-container-center {
+  text-align: center;
+}
+
+#choice {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilos para dispositivos pequeños */
+@media screen and (max-width: 600px) {
+  #content-container {
+      padding: 10px;
+  }
+}
+

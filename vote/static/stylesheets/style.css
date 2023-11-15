@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#choice {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  text-align: center;
+  color: #007bff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+#tip {
+  margin-top: 10px;
+  text-align: center;
+  color: #6c757d;
+}
